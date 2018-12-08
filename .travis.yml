@@ -1,0 +1,15 @@
+dist: trusty
+
+goup: edge
+
+language: java
+
+sudo:required
+
+jdk: openjdk8
+
+cache:
+	directories:
+		- $HOME/.m2
+	sript:
+		- mvn clean install
