@@ -4,4 +4,4 @@ server:
   rootPath: /api/
   applicationConnectors:
   - type: http
-    port: 80082
+    port: 8082
